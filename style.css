@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+:root {
+    --font-family: 'Mulish', sans-serif;
+    --bg-color: #EF962D;
+    --primary-color: #FAF4F4;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 5em;
+    margin-top: 0.25em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 1.25em;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 2.5em;
+}
+
+.box {
+    display: inline-block;
+    border: 2px solid var(--primary-color);
+    padding: 0.15em;
+    font-size: 4em;
+    margin: 1em;
+}
+
+.dica {
+    margin-bottom: 1em;
+}
+
+.btn-jogar {
+    padding: 0.5em 0.938em;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn-jogar:hover {
+    cursor: pointer;
+}
